@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contactános- Hacemos realidad tu proyecto</title>
+    <link rel="shortcut icon" href="/Img/mutalogo.JPG" type="image/x-icon">
+    <link rel="stylesheet" href="/estilo.css">
+</head>
+<body>
+
+    <header class="header-contacto">
+
+          <nav> 
+              <ul>
+                <li><a href="/index.html">Inicio</li></a>
+                <li><a href="/Pages/servicios.html">Servicios</li></a>
+                <li><a href="/Pages/portfolio.html">Portfolio</li></a>
+                <li><a href="/Pages/equipo.html">Equipo</li></a>
+                <li><a href="/Pages/contacto.html">Contacto</li></a>
+              </ul>
+              
+          </nav>
+          <div class="header-nombre">
+            <h1>MÜTA</h1>
+        </div>
+   
+
+          <div class="header__logo">
+            <a href="/index.html"><img src="/Img/logo muta .png" alt="logo" style="width:100px;height:100;"></a>
+        </div>
+  
+          <a href="https://www.instagram.com/muta_studio/" target="_blank">Instagram</a>
+          <a href="https://www.behance.net/mutastudio1" target="_blank">behance</a>
+
+    <header>
+
+    <div class="titulo-princial">
+        <h1 class="titulo-principal__h1">Hola Mütante! Estamos listos <strong>para ayudarte</strong></h1>
+        <h2 class="titulo-principal__h2">Completá el siguiente formulario y dejanos tu consulta. En breve nos comunicaremos con vos.</h2>
+    </div>
+
+    <div class="formulario-contacto">
+      <form action="enviar.php" enctype="text/plain">
+          <div class="datos-cliente"> 
+              <label for="nombre">Nombre/Empresa</label>
+              <input type="text" id="nombre" placeholder="Ingrese su nombre" required><br><br>
+              <label for="email">Email</label>
+              <input type="email" id="email" placeholder="Email" required><br><br>
+              <label for="telefono">Teléfono</label>
+              <input type="text" id="telefono" placeholder="Teléfono" required><br><br>
+              
+            </div>
+
+             <div class="datos-empresa">
+              
+              <h4 class="sobre-tu-proyecto">Sobre tu proyecto</h4> <br>
+              
+              <label for="proyecto">1.¿Tiene nombre tu marca? ¿Cuál es? (Compartinos el enlace de Ig o web, si es que tiene)</label>
+              <input type="text" id="proyecto"> <br><br>
+              <label for="rubro">2. ¿A qué rubro pertenece?</label>
+              <input type="text" id="rubro"><br><br>
+              
+              <p>3. ¿Cuál / cuáles servicios necesitás?</p>  <br>
+              <div class="servicios">
+                  <label for="branding">Branding</label>
+                  <input type="checkbox" id="branding"><br><br>
+                  
+                  <label for="Re-branding">Re-branding</label>
+                  <input type="checkbox" id="Re-branding"><br><br>
+                  
+                  <label for="redes">Diseño de contenido para redes</label>
+                  <input type="checkbox" id="redes"><br><br>
+                  
+                  <label for="community">Community management</label>
+                  <input type="checkbox" id="community"><br><br>
+                  
+                  <label for="marketing">Marketing y publicidad</label>
+                  <input type="checkbox" id="marketing"><br><br>
+                  
+                  <label for="Diseño web">Diseño web/Landing pages</label>
+                  <input type="checkbox" id="Diseño web"><br><br>
+                  
+                  <label for="direccion">Dirección de arte</label>
+                  <input type="checkbox" id="direccion"><br><br>
+                  
+                  <label for="packaging">Packaging</label>
+                  <input type="checkbox" id="packaging"><br><br>
+                  
+                  <label for="ilustracion">Ilustración</label>
+                  <input type="checkbox" id="ilustracion"><br><br>
+                  
+                  <label for="Fotografia">Fotografía</label>
+                  <input type="checkbox" id="fotografia"><br><br>
+                  
+                  <label for="editorial">Editorial</label>
+                  <input type="checkbox" id="editorial"><br><br>
+                  
+                  <label for="otro">Otro</label>
+                  <input type="text" id="otro"><br><br>
+                </div>
+              
+              <label for="">4. ¿Qué nivel de visibilidad y alcance planeas que tenga tu proyecto? </label>
+              <input type="radio" name="nivel" value="1"> Bajo
+              <input type="radio" name="nivel" value="2"> Medio
+              <input type="radio" name="nivel" value="3"> Alto
+
+              <br><br>
+              
+              <p>5. ¿Tenés pensado el camino estético por el cuál quisieras avanzar?</p> <br>
+
+              <div class="camino-estetico">
+                  <label for="minimal">Minimal/ Limpio</label>
+                  <input type="checkbox" id="minimal"><br><br>
+                  <label for="expresivo">Expresivo/ Plástico</label>
+                  <input type="checkbox" id="expresivo"><br><br>
+                  <label for="ilustrado">Ilustrado</label>
+                  <input type="checkbox" id="ilustrado"><br><br>
+                  <label for="tipografico">Tipográfico</label>
+                  <input type="checkbox" id="tipografico"><br><br>
+                  <label for="fotografico">Fotográfico</label>
+                  <input type="checkbox" id="fotografico"><br><br>
+                  <label for="explorar">Lo tengo que explorar todavia</label>
+                  <input type="checkbox" id="explorar"><br><br>
+                  <label for="otro">Otro</label>
+                  <input type="checkbox" id="otro"><br><br>
+                </div>
+                  
+              <p>6. ¿Hay alguna referencia que nos quieras compartir? Podés pegar enlaces debajo, sobre marcas o productos de tu rubro u otro que sientas que identifican lo que estás buscando.</p> <br><br>
+              <textarea name="comentarios" id="comentarios" cols="30" rows="10" placeholder="Dejanos tu comentario"></textarea>
+              <br><br>
+              
+              <input type="submit" value="Enviar ahora">
+              <input type="reset" value="Borrar todo">
+            </div>
+        </form>
+    </div>
+        
+        <br>
+        <br>   
+        <hr>
+        
+        Consultas generales 
+        <p>hola@mutaestudio.com.ar</p>
+        <p>011-4522-55675</p>
+
+
+    <footer class="footer"> 
+
+       <p>2022 MUTA all rights reserved</p>
+  
+      <nav><a href="./contacto"><h4>Contacto</h4></a></nav>
+  
+         <a href="https://www.instagram.com/muta_studio/" target="_blank">Instagram</a>
+         <a href="https://www.behance.net/mutastudio1"
+         target="_blank">behance</a>
+  
+    </footer>
+
+</body>
+</html>
